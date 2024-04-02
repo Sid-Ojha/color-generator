@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    width: 40%;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#heading{
+    text-align: center;
+}
+button{
+    color: white;
+    background-color: black;
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.619);
+}
